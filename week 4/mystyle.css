@@ -1,0 +1,58 @@
+p + p { color: blue; }
+p + p + p { color: red; }
+a:link {
+    color: darkred;
+  }
+  a:visited {
+      color: blue;
+  } 
+  a:hover{
+    color: red;
+  }
+  a:active {
+      color: green;
+  }
+  ol li:first-child {
+      color:red;
+  }
+  ol li:last-child{
+      color: green;
+  }
+  ol li:nth-child(odd){
+      color: blue;
+  }
+  ol li:nth-child(4){
+      color:cyan;
+  }
+  
+  table,td,th{
+      border:1px solid;
+      border-collapse: collapse;
+  }
+  tr:first-child{
+      background-color:yellow;
+  }
+  tr:nth-child(even){
+      background-color: green;
+  }
+  td:nth-child(1){
+      background-color: red;
+  }
+  p::first-line {
+    color: darkcyan;
+    font-style: italic;
+    font-size: 120%;
+  }
+  p::first-letter {
+    color: tomato;
+    font-size: 200%;
+  }
+  p::selection { 
+    color:rgba(0,0,0,0);
+  }
+  p::before, p::after { 
+    content: "\2764"; 
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 150%;
+  }
